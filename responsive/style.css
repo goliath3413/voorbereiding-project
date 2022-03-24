@@ -167,7 +167,9 @@ main aside {
     margin: 1.5rem 0 1rem 0;
     padding: 1rem;
 }
-
+main {
+    background-color: burlywood;
+}
 main aside article {
     font-size: 1.2rem;
     margin-top: 1rem;
@@ -261,20 +263,16 @@ footer li+li:before {
 
 /* Media queries
   /* ============== */
-  main {
-      background-color: ghostwhite;
-  }
-@media (min-width: 400px) {
-    main {
-        background-color: burlywood;
-    }
-}
 
     @media (min-width: 500px) {
+        main {
+            background-color: ghostwhite;
+        }
         main aside {
             float: right;
             margin-left: 1rem;
             width: 16rem;
+            background-color: ghostwhite;
         }
 
         header {
