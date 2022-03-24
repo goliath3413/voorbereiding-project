@@ -261,32 +261,42 @@ footer li+li:before {
 
 /* Media queries
   /* ============== */
-
-@media (min-width: 30em) {
-    main aside {
-        float: right;
-        margin-left: 1rem;
-        width: 16rem;
-    }
-
-    header {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-    }
-}
-
-@media (min-width: 37.5em) {
+  main {
+      background-color: ghostwhite;
+  }
+@media (min-width: 400px) {
     main {
-        display: flex;
-        flex-flow: row nowrap;
-    }
-
-    #leftmenu {
-        width: 21%;
-    }
-
-    #content {
-        width: 79%;
+        background-color: burlywood;
     }
 }
+
+    @media (min-width: 500px) {
+        main aside {
+            float: right;
+            margin-left: 1rem;
+            width: 16rem;
+        }
+
+        header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+    }
+
+    @media (min-width: 600px) {
+        main {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: navajowhite;
+            /* burlywood, ghostwhite, najowhite */
+        }
+
+        #leftmenu {
+            width: 21%;
+        }
+
+        #content {
+            width: 79%;
+        }
+    }
