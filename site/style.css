@@ -107,10 +107,13 @@ header+nav {
 
 #mainmenu {
     display: block;
+    float: right;
 }
 
 #mainmenu li {
-    display: inline-block;
+    display: flex;
+    float: right;
+    overflow: hidden;
 }
 
 #mainmenu a {
