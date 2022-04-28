@@ -215,9 +215,7 @@ header+nav {
 }
 
 /* content */
-#content {
-    padding: 1rem 2rem;
-}
+
 
 .content_header {
     font-size: smaller;
@@ -361,14 +359,28 @@ footer li+li:before {
 @media (min-width: 600px) {
     main {
         display: flex;
-        flex-flow: row nowrap;
+        flex-direction: column;
         background-color: rgba(255, 222, 173, 0.411);
-        /* burlywood, ghostwhite, najowhite */
     }
 
-
-
-    #content {
-        width: 79%;
-    }
+    
 }
+section {
+    display: flex;
+    
+    padding: 3rem;
+    margin: 1rem;
+    
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-size: xx-large;
+    letter-spacing: 4px;
+    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
