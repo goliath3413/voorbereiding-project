@@ -25,7 +25,10 @@ body {
     font-size: 1.6rem;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
     margin: 1em 0;
 }
 
@@ -86,13 +89,6 @@ header a {
     background-color: #eee;
     border-radius: 10px;
 }
-
-.header_login {
-    text-align: right;
-
-
-}
-
 
 .header_login a:hover {
     color: rgba(0, 0, 0, 0.527);
@@ -231,12 +227,7 @@ header+nav {
 }
 
 /* aside */
-main aside {
-    border: 1px solid gray;
-    font-size: smaller;
-    margin: 1.5rem 0 1rem 0;
-    padding: 1rem;
-}
+
 
 main {
     /* idk wth this is */
@@ -253,14 +244,6 @@ main aside article {
     display: block;
     margin: 0 auto;
     width: 80%;
-}
-
-main aside article p:last-child {
-    margin-top: 0.5rem;
-}
-
-main aside article h1 {
-    margin: 1rem 0;
 }
 
 /* comments */
@@ -309,7 +292,8 @@ footer a {
     color: #ccc;
 }
 
-footer p, footer ul {
+footer p,
+footer ul {
     margin: 1rem 0;
 }
 
@@ -333,19 +317,26 @@ footer li+li:before {
     color: #999;
 }
 
+/*          AYAYA AYAYA
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣬⡛⣿⣿⣿⣯⢻ 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢻⣿⣿⢟⣻⣿⣿⣿⣿⣿⣿⣮⡻⣿⣿⣧ 
+⣿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣆⠻⡫⣢⠿⣿⣿⣿⣿⣿⣿⣿⣷⣜⢻⣿ 
+⣿⣿⡏⣿⣿⣨⣝⠿⣿⣿⣿⣿⣿⢕⠸⣛⣩⣥⣄⣩⢝⣛⡿⠿⣿⣿⣆⢝ 
+⣿⣿⢡⣸⣿⣏⣿⣿⣶⣯⣙⠫⢺⣿⣷⡈⣿⣿⣿⣿⡿⠿⢿⣟⣒⣋⣙⠊ 
+⣿⡏⡿⣛⣍⢿⣮⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
+⣿⢱⣾⣿⣿⣿⣝⡮⡻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⣋⣻⣿⣿⣿⣿ 
+⢿⢸⣿⣿⣿⣿⣿⣿⣷⣽⣿⣿⣿⣿⣿⣿⣿⡕⣡⣴⣶⣿⣿⣿⡟⣿⣿⣿ 
+⣦⡸⣿⣿⣿⣿⣿⣿⡛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⣿⣿ 
+⢛⠷⡹⣿⠋⣉⣠⣤⣶⣶⣿⣿⣿⣿⣿⣿⡿⠿⢿⣿⣿⣿⣿⣿⣷⢹⣿⣿ 
+⣷⡝⣿⡞⣿⣿⣿⣿⣿⣿⣿⣿⡟⠋⠁⣠⣤⣤⣦⣽⣿⣿⣿⡿⠋⠘⣿⣿ 
+⣿⣿⡹⣿⡼⣿⣿⣿⣿⣿⣿⣿⣧⡰⣿⣿⣿⣿⣿⣹⡿⠟⠉⡀⠄⠄⢿⣿ 
+⣿⣿⣿⣽⣿⣼⣛⠿⠿⣿⣿⣿⣿⣿⣯⣿⠿⢟⣻⡽⢚⣤⡞⠄⠄⠄⢸⣿ */
 
 /* Media queries
   /* ============== */
 
 @media (min-width: 500px) {
     main {
-        background-color: ghostwhite;
-    }
-
-    main aside {
-        float: right;
-        margin-left: 1rem;
-        width: 16rem;
         background-color: ghostwhite;
     }
 
@@ -363,24 +354,59 @@ footer li+li:before {
         background-color: rgba(255, 222, 173, 0.411);
     }
 
-    
+
 }
+
 section {
-    display: flex;
-    
     padding: 3rem;
     margin: 1rem;
-    
+
 
 }
+
 .content {
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    text-decoration: underline;
-    font-size: xx-large;
-    letter-spacing: 4px;
     text-align: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    align-items: center;
+    font-size: 90px;
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
 }
 
+.content p {
+    padding: 6rem;
+}
+
+.content2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 90px;
+    padding: 20px;
+    transition: transform 0.5s;
+}
+
+.content2 img {
+    transition: transform 0.5s;
+}
+
+.content2 img:hover {
+    transform: scale(1.2);
+
+}
+
+.beforefoot {
+    display: flex;
+    justify-content: center;
+}
+
+.beforefoot img:hover {
+    transform: scale(1.2);
+}
+
+.beforefoot img {
+    transition: transform 0.5s;
+}
