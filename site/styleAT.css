@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     /* 1 rem is nu 10px */
+    background-color: #dfc3c4da;
 }
 
 * {
@@ -60,15 +61,16 @@ h5 {
 
 header {
     align-items: center;
-
+    background-color: #dfc3c4ee;
     color: #ccc;
     padding: 2rem;
     position: relative;
+    border-radius: 10px;
 }
 
 
 header p:first-of-type a {
-    background-color: white;
+    background-color: rgba(245, 245, 220, 0);
 }
 
 
@@ -86,7 +88,7 @@ header a {
     font-family: serif;
     font-size: xx-large;
     padding: 10px;
-    
+    background-color: rgba(245, 245, 245, 0.555);
     border-radius: 10px;
 }
 
@@ -441,5 +443,5 @@ section {
     font-size: xx-large;
     text-align: center;
     padding-top: 20px;
+    font-family: times;
 }
-.sideN 
