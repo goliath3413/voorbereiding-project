@@ -447,20 +447,25 @@ section {
 }
 .sideNA a {
     position: fixed;
-  right: -90px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  border-radius: 0 5px 5px 0;
+    right: -100px;
+    transition: 0.3s;
+    padding: 5px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px ;
+    align-items: row;
 }
+
 .sideNA a:hover {
     right: 0px;
 }
+
 .schr {
-    text-align: right;
+    
+    text-align: center;
     top: 20px;
     background-color: #ce1313;
+    align-items: center;
 }
