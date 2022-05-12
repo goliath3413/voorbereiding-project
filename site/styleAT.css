@@ -533,6 +533,11 @@ section {
   color: white;
   padding-bottom: 10px;
 }
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bg-right {
   background-color: #a93f3e;
   position: fixed;

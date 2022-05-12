@@ -107,7 +107,7 @@ input[type=checkbox], label {
 .content {
   display: table;
   margin-bottom: 60px;
-  width: 900px;
+  width: 100%;
 }
 
 .content h2 {
@@ -226,12 +226,39 @@ footer {
 
 @media only screen and (max-width: 980px) {
   .content {
-    width: 90%;
+    width: 100%;
     display: none;
   }
 
+  .content img {
+    display: none;
+  }
 
+  main {
+    width: 100%;
+    align-items: stretch;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between
+  }
 
+  .content2 {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .content2 img {
+    box-shadow: #000000;
+    box-shadow: 5px 7px 7px 5px;
+    margin: 15px;
+  }
+  .beforefoot {
+    display: flex;
+    align-items: center;
+  }
 
 
 }
@@ -274,6 +301,7 @@ footer {
   h1 {
     padding: 20px 0px;
   }
+
 }
 
 html {
@@ -440,6 +468,9 @@ header+nav {
   padding: 1rem 2rem;
 }
 
+main {
+  width: 100%;
+}
 
 #mainmenu li {
   display: flex;
@@ -595,31 +626,7 @@ footer li+li:before {
 /* Media queries
 /* ============== */
 
-@media (min-width: 500px) {
-  main {
-    display: flex;
-    flex-flow: row nowrap;
-    align-content: space-around;
-    justify-content: space-evenly;
-  }
 
-  header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 600px) {
-  main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-  }
-
-
-}
 
 section {
 
@@ -662,6 +669,8 @@ section {
 
 }
 
+
+
 .beforefoot {
   display: flex;
   justify-content: center;
@@ -675,6 +684,8 @@ section {
   transition: transform 0.5s;
 }
 
+
+/* platform of 2nd page */
 .platforms {
   display: flex;
   justify-content: space-evenly;
