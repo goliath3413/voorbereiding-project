@@ -634,8 +634,8 @@ section {
   display: flex;
   flex-direction: row;
   text-align: right;
-  align-items: center;
-  font-size: 90px;
+  align-items: flex-start;
+  font-size: 6w;
   padding: 20px;
 }
 
