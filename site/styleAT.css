@@ -109,22 +109,17 @@ input[type=checkbox], label {
   width: 100%;
   
 }
-
+.content img {
+  width: 800px;
+  padding: 10px;
+}
 .content h2 {
-  font-size: 18px;
-  font-weight: 500;
-  color: #002e5b;
-  border-bottom: 1px solid #fde428;
-  display: table;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+ 
+  
 }
 
 .content p {
-  font-size: 100px;
-  line-height: 100px;
-  color: white;
-  text-align: center;
+  
 }
 
 footer {
@@ -645,15 +640,31 @@ section {
 .content {
   justify-content: center;
   display: flex;
-  flex-direction: row;
-  text-align: right;
+  flex-direction: column;
+  text-align: left;
   align-items: center;
-  font-size: 90px;
+  margin: 20px;
   padding: 20px;
+  font-size: 20px;
+  line-height: 25px;
 }
-
+.content br {
+ 
+ 
+}
+.contbr {
+  background-color: rgb(226, 197, 178);
+  border-radius: 10px;
+  padding-bottom: 4px;
+}
+.contimg {
+  display: block;
+  padding-left: 60px;
+  padding-top: 20px;
+  
+}
 .content p {
-  padding: 6rem;
+
 }
 
 .content2 {
@@ -700,7 +711,7 @@ section {
 .platforms {
   display: flex;
   padding-top: 20px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .pl1 {
@@ -708,12 +719,12 @@ section {
   padding: 20px;
   background-color: rgba(245, 245, 245, 0.555);
   border-radius: 20px;
-
 }
 
 .pl2 {
   font-size: x-large;
   padding: 20px;
+  line-height: 40px;
   background-color: rgba(245, 245, 245, 0.555);
   border-radius: 20px;
 }
@@ -734,19 +745,4 @@ section {
     display: block;
     text-align: center;
     margin: 0 auto;
-}
-
-.bg-right {
-  background-color: #a93f3e;
-  position: fixed;
-  inset: 0 0 0 50%;
-  z-index: -1;
-}
-
-.leftside {
-  background-color: #373b4f;
-  position: fixed;
-  z-index: -1;
-  inset: 0 50% 0 0;
-
 }
