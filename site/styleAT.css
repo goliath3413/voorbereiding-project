@@ -103,15 +103,7 @@ input[type=checkbox], label {
   display: none;
 }
 
-.content {
-  display: table;
-  margin-bottom: 60px;
-  width: 100%;
-
-}
-
 .content img {
-  width: 800px;
   padding: 10px;
 }
 
@@ -579,8 +571,9 @@ footer {
   background-color: rgba(157, 157, 157, 0.81);
   color: #eee;
   font-size: smaller;
-
+  margin: 20px;
   text-align: center;
+  width: 100%;
 }
 
 footer a {
@@ -642,7 +635,6 @@ section {
   flex-direction: column;
   text-align: left;
   align-items: center;
-  margin: 20px;
   padding: 20px;
   font-size: 20px;
   line-height: 25px;
@@ -656,9 +648,11 @@ section {
 
 .contimg {
   display: flex;
-  padding-left: 60px;
-  padding-top: 20px;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  
+  
 }
 
 .content2 {
@@ -751,3 +745,46 @@ section {
   text-align: center;
   margin: 0 auto;
 }
+
+.ateliers-images {
+  width: 500px;
+  height: 539px;
+  background-size: 502px;
+  background-position: 0px;
+}
+
+.ateliers-images div {
+  background-size: 1000px; /* initiele waarde */
+}
+.ateliers-images div:hover {
+  transition: background-size 0.5s ease-in;
+}
+
+
+
+.beeldhouw1 {
+  background-image: url(RUIMTELIJKEKUNST/Beeldhouwen-fotomateriaal-JP-15-768x1024.jpg);
+}
+.beeldhouw2 {
+  background-size: 800px;
+  background-position: 1px;
+  background-image: url(RUIMTELIJKEKUNST/Beeldhouwen-fotomateriaal-JP-248-1024x768.jpg);
+}
+.beeldhouw3 {
+  background-image: url(RUIMTELIJKEKUNST/Expo-2018-2019-13-683x1024.jpg);
+}
+.beeldhouw4 {
+  background-image: url(RUIMTELIJKEKUNST/Expo-2018-2019-312-906x1024.jpg);
+}
+/**
+<div class="ateliers-images beeldhouw1"></div>
+<div class="ateliers-images beeldhouw2"></div>
+*/
+
+
+
+/**
+- make div of the img (so open & close tag)
+- give every div two classes, general one & specific one of the img
+- make 5 classes total 
+*/

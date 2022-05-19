@@ -33,3 +33,18 @@ main {
 ensure all images keep proportion but you can cut/clip images
 
 https://cvoprofiel2021.netlify.app/code-samples/background-image-slice.html
+
+
+===
+
+for space between flex elements
+use row-gap: 10px; thats between rows,
+same for columns is there
+
+if possible use background image where possible
+
+unify all CSS files
+
+only keep specific style in the sheet for that specific page, if you really want to keep it separate
+
+but move whatever is needed in one style sheet in one

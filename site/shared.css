@@ -1,0 +1,15 @@
+.contimg {
+    row-gap: 10px;column-gap: 10px;
+}
+
+div.ateliers-images {
+    background-size: 800px;
+        background-position-x: center;
+    /* initiele waarde */
+}
+
+div.ateliers-images:hover {
+    background-size: 1000px;
+
+    transition: background-size 0.5s ease-in;
+}
