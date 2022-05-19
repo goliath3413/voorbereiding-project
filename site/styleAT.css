@@ -37,8 +37,8 @@ header {
   float: left;
   width: 50px;
   height: 50px;
-  
-  
+
+
 }
 
 nav {
@@ -107,19 +107,12 @@ input[type=checkbox], label {
   display: table;
   margin-bottom: 60px;
   width: 100%;
-  
+
 }
+
 .content img {
   width: 800px;
   padding: 10px;
-}
-.content h2 {
- 
-  
-}
-
-.content p {
-  
 }
 
 footer {
@@ -156,7 +149,7 @@ footer {
 
 @media only screen and (max-width: 980px) {
 
-  
+
 
   input[type=checkbox] {
     position: absolute;
@@ -245,13 +238,16 @@ footer {
   .content2 img {
     box-shadow: #000000;
     box-shadow: 5px 7px 7px 5px;
-    margin: 20px;;
+    margin: 20px;
+    ;
   }
+
   .beforefoot {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .platforms {
     display: flex;
     padding-top: 20px;
@@ -261,12 +257,15 @@ footer {
     align-content: space-around;
     align-items: baseline;
   }
-  .platforms .pl1{
+
+  .platforms .pl1 {
     margin: 10px;
   }
+
   .platforms .pl2 {
     margin: 10px;
   }
+
   .platforms .pl3 {
     margin: 10px;
   }
@@ -580,7 +579,7 @@ footer {
   background-color: rgba(157, 157, 157, 0.81);
   color: #eee;
   font-size: smaller;
-  
+
   text-align: center;
 }
 
@@ -648,23 +647,18 @@ section {
   font-size: 20px;
   line-height: 25px;
 }
-.content br {
- 
- 
-}
+
 .contbr {
   background-color: rgb(226, 197, 178);
   border-radius: 10px;
   padding-bottom: 4px;
 }
+
 .contimg {
-  display: block;
+  display: flex;
   padding-left: 60px;
   padding-top: 20px;
-  
-}
-.content p {
-
+  flex-wrap: wrap;
 }
 
 .content2 {
@@ -675,14 +669,13 @@ section {
   font-size: 90px;
   padding: 20px;
   transition: transform 0.5s;
-
 }
 
 .content2 img {
   transition: transform 0.5s;
-    box-shadow: #000000;
-    box-shadow: 5px 7px 7px 5px;
-    margin: 20px;
+  box-shadow: #000000;
+  box-shadow: 5px 7px 7px 5px;
+  margin: 20px;
 }
 
 .content2 img:hover {
@@ -711,29 +704,41 @@ section {
 .platforms {
   display: flex;
   padding-top: 20px;
-  justify-content: space-around;
+
+  justify-content: space-evenly;
 }
 
 .pl1 {
   font-size: x-large;
-  padding: 20px;
+  padding: 10px;
+  justify-content: flex-end;
   background-color: rgba(245, 245, 245, 0.555);
-  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pl2 {
   font-size: x-large;
-  padding: 20px;
-  line-height: 40px;
+  padding: 10px;
+  justify-content: flex-end;
   background-color: rgba(245, 245, 245, 0.555);
-  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pl3 {
   font-size: x-large;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(245, 245, 245, 0.555);
-  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .platforms li {
@@ -742,7 +747,7 @@ section {
 
 .map {
   width: 80%;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
