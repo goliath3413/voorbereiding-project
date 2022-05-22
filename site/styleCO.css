@@ -112,7 +112,7 @@
   /* ============== */
   
   body {
-    background-color: purple;
+    background-color: #7e4736;
     font-family: Verdana;
     font-size: 1.6rem;
   }
@@ -232,7 +232,19 @@
   }
   
 .contactpadtext {
-  padding: 15px;
+  padding: 12px;
+  display:table-cell;
+  flex-flow: column;
+  line-height: 25px;
+  background-color: rgb(209, 203, 203);
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  line-height: 50px;
+}
+.info1 {
+  padding: 12px;
   display:table-cell;
   flex-flow: column;
   line-height: 25px;
@@ -245,6 +257,7 @@
 }
 
 .contactall {
+  padding: 5px;
   display: flex;
   justify-content: space-evenly;
   flex-flow: row;
