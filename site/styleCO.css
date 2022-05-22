@@ -228,9 +228,10 @@
     font-size: xx-large;
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 80px;
   }
   
-.contactpad {
+.contactpadtext {
   padding: 15px;
   display:table-cell;
   flex-flow: column;
@@ -240,4 +241,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 25px;
+  line-height: 50px;
+}
+
+.contactall {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: flex-start;
 }
