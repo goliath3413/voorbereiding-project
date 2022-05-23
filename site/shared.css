@@ -20,7 +20,9 @@ div.ateliers-images:hover {
 
 
 
-
+body {
+  padding-bottom: 70px;
+}
 
 /** MEDIA Q**/
 
@@ -251,6 +253,7 @@ div.ateliers-images:hover {
   position: fixed;
   bottom: 0;
   height: 40px;
+
   }
   
   footer a {

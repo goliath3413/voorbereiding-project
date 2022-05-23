@@ -1,0 +1,287 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+  }
+  
+  section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: table;
+    position: relative;
+  }
+  
+  h1 {
+    margin: 0px auto;
+    display: table;
+    font-size: 26px;
+    padding: 40px 0px;
+    color: #002e5b;
+    text-align: center;
+  }
+  
+  h1 span {
+    font-weight: 500;
+  }
+  
+  header {
+    width: 100%;
+    display: table;
+    background-color: rgb(238 228 207);
+  }
+  
+  #logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+  
+  
+  }
+  
+  nav {
+    width: auto;
+    float: right;
+  }
+  
+  nav ul {
+    display: table;
+    float: right;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li:last-child {
+    padding-right: 0px;
+  }
+  
+  nav ul li a {
+    color: #002e5b;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #002e5b;
+    color: #fde428;
+    transition: all 0.5s ease 0s;
+  }
+  
+  nav ul li a:hover i {
+    color: #fde428;
+    transition: all 0.5s ease 0s;
+  }
+  
+  nav ul li a i {
+    padding-right: 10px;
+    color: #002e5b;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .toggle-menu ul {
+    display: table;
+    width: 25px;
+  }
+  
+  .toggle-menu ul li {
+    width: 100%;
+    height: 3px;
+    background-color: #002e5b;
+    margin-bottom: 4px;
+  }
+  
+  .toggle-menu ul li:last-child {
+    margin-bottom: 0px;
+  }
+  
+  input[type=checkbox], label {
+    display: none;
+  }
+  
+  .content img {
+    padding: 10px;
+  }
+  
+  .social {
+    margin: 0px auto;
+    display: table;
+    display: table;
+  }
+  
+  .social li {
+    float: left;
+    padding: 0px 10px;
+  }
+  
+  .social li a {
+    color: #002e5b;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .social li a:hover {
+    color: #fde428;
+    transition: all 0.5s ease 0s;
+  }
+  
+ 
+  html {
+    font-size: 62.5%;
+    /* 1 rem is nu 10px */
+  }
+  
+  * {
+    box-sizing: border-box;
+    /* corrigeer het box model */
+    margin: 0;
+    /* wis verschillen tussen browsers uit */
+    padding: 0;
+    /* wis verschillen tussen browsers uit */
+  }
+  
+  /* General
+  /* ============== */
+  
+  body {
+    background-color: #f87c56;
+    font-family: Verdana;
+    font-size: 1.6rem;
+  }
+  h5 {
+    margin: 1em 0;
+  }
+  h2 {
+    margin:1em 0 ;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+  }
+  
+  h4 {
+    font-size: 1.4rem;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  /* site wrapper */
+  #wrapper {
+    max-width: 90rem;
+    min-width: 24rem;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  
+  /* Header
+  /* ============== */
+  
+  header {
+    align-items: center;
+    color: #ccc;
+    position: relative;
+  }
+  
+  header h1 {
+    margin-bottom: 2rem;
+  }
+  
+  header h1 a {
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  header a {
+    color: rgb(0, 0, 0);
+    font-family: HK_Grotesk, arial, sans-serif;
+    font-size: xx-large;
+    padding: 10px;
+  
+    border-radius: 10px;
+  }
+  
+  .header_login a:hover {
+    color: rgba(0, 0, 0, 0.527);
+  }
+  
+ 
+  section {
+  
+    margin: 1rem;
+  
+  
+  }
+  
+  .content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .contbr {
+    background-color: rgb(226, 197, 178);
+    border-radius: 10px;
+    padding-bottom: 4px;
+  }
+  
+  .contimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+    
+  }
+
+
+  .ateliers-images {
+    width: 425px;
+    height: 272px;
+    background-size: 500px;
+    background-position: 0px;
+  }
+  .ateliers-images div {
+    background-size: 1000px; /* initiele waarde */
+  }
+  .ateliers-images div:hover {
+    transition: background-size 0.5s ease-in;
+  }
+  
+  
+  .beeldhouw1 {
+    background-image: url(grafiekekunst/grafagag-1024x743.jpg);
+  }
+  .beeldhouw2 {
+    background-image: url(grafiekekunst/graffffk-1024x743.jpg);
+  }
+  .beeldhouw3 {
+    background-image: url(grafiekekunst/grafffk-1024x768.jpg);
+  }
+  .beeldhouw4 {
+    background-image: url(grafiekekunst/IMG_0283-1024x768.jpg);
+  }
+  /**
+  <div class="ateliers-images beeldhouw1"></div>
+  <div class="ateliers-images beeldhouw2"></div>
+  */
+  
+  
+  
+  /**
+  - make div of the img (so open & close tag)
+  - give every div two classes, general one & specific one of the img
+  - make 5 classes total 
+  */
+  
