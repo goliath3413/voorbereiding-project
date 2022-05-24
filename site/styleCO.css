@@ -290,3 +290,18 @@ section {
   align-content: stretch;
   align-items: flex-start;
 }
+
+
+
+
+
+@media only screen and (max-width: 1599px){
+.contactall {
+  display: flex;
+  size-adjust: 90%;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+}
